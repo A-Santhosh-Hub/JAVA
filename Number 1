@@ -1,0 +1,16 @@
+import java.util.*;
+class Main{
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter The Start Number");
+        int a = in.nextInt();
+        System.out.println("Enter the End Number");
+        int num =in.nextInt();
+        System.out.println("The Output:");
+        for (int i=a;i<=num;i++){
+            if(i%2==0) {
+                System.out.println(i);
+            }
+        }
+    }
+}
