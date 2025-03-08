@@ -1,0 +1,12 @@
+import java.util.*;
+class Scholarship{
+    public static void main(String SANTHOSH[]){
+        Scanner in = new Scanner(System.in);
+        int amount=in.nextInt();
+        if(amount<7000){
+            System.out.println("You get college Scholarship");
+        }else {
+            System.out.println("You are Rich");
+        }
+        }
+    }
