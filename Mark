@@ -1,0 +1,22 @@
+import java.util.*;
+class Main{
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter your Score: ");
+        int a =in.nextInt();
+        if(a<1||a<=34){
+            System.out.println("Fail pa");
+        }
+        else if(a<35||a<=49){
+            System.out.println("Need To Read");
+        } else if (a<=50||a<=69) {
+            System.out.println("Good one Bro");
+        } else if (a<70||a<=89) {
+            System.out.println("Mass ");
+        } else if (a<90||a<=100) {
+            System.out.println("Podo Masss Ra dei");
+        }else {
+            System.out.println("Invalid Input");
+        }
+    }
+}
