@@ -2,17 +2,27 @@ import java.util.*;
 class Main{
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
+
         System.out.println("Enter The Start Number");
         int a = in.nextInt();
         System.out.println("Enter the End Number");
         int num =in.nextInt();
         System.out.println("The Output:");
+        int odd=0;
+        int even=0;
         for (int i=a;i<=num;i++){
             if(i%2==1) {
+                odd=odd+1;
                 System.out.print(i+" this number Odd Number "+"  ");
+
             } else if (i%2==0) {
+
+                even=even+1;
                 System.out.println(i+" this number Even Number "+"  ");
+
             }
         }
+        System.out.print("The Odd Numbers "+odd+"  ");
+        System.out.println("The Even Numbers "+even+"  ");
     }
 }
