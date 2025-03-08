@@ -1,9 +1,12 @@
 import java.util.*;
 class Ternary{
     public static void main(String[] args) {
-        Scanner in =new Scanner(System.in);
-        //System.out.println(false?"Good Ra Deii":"No");
-        String n= false?"Mass":"devil";
-        System.out.println(n);
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter the Number:-");
+        int num=in.nextInt();
+        int num1=in.nextInt();
+        System.out.println("it's About The First Number");
+        System.out.println(num>num1?"The Number is Big":"The Number Is Small");
+        //System.out.println(num1<num?"Number is Small":"Number is Big" );
     }
 }
