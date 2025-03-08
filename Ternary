@@ -1,0 +1,9 @@
+import java.util.*;
+class Ternary{
+    public static void main(String[] args) {
+        Scanner in =new Scanner(System.in);
+        //System.out.println(false?"Good Ra Deii":"No");
+        String n= false?"Mass":"devil";
+        System.out.println(n);
+    }
+}
