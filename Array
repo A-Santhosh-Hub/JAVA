@@ -1,0 +1,13 @@
+import java.util.*;
+class Array{
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        String[] Games= new String[2];
+        String[] Car= {"AUDIO","BMW","RR","MUSTANG","SUPRA","DOGE"};
+        Games[0]="GTA 1";
+        Games[1]="GTA 2";
+        System.out.println(Games[0]);
+        System.out.println(Games[1]);
+        System.out.println(Car[5]);
+    }
+}
