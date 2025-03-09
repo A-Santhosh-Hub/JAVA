@@ -1,0 +1,15 @@
+import java.util.*;
+class Array{
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter the Array Size 0 to 100 :");
+        int array = in.nextInt();
+        int[] games=new int[array];
+        for(int i=0;i<10;i++){
+            games[i]=in.nextInt();
+        }
+        for (int j=0;j<10;j++){
+            System.out.println(games[j]);
+        }
+    }
+}
