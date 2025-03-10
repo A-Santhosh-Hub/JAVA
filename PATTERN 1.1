@@ -1,0 +1,18 @@
+import java.util.*;
+class Main{
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter the Number of times to print the pattern:");
+        int a =in.nextInt();
+        System.out.println(" Enter the Symbol to print:=");
+        in.nextLine();
+        String b=in.nextLine();
+        System.out.println("The OUTPUT");
+        for(int i=1;i<=a;i++){
+            for(int j=1;j<=i;j++){
+                System.out.print(b+" ");
+            }
+            System.out.println(" ");
+        }
+    }
+}
