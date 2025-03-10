@@ -1,0 +1,65 @@
+import java.util.*;
+class Car{
+//-----------------------------------\\
+    //   Car Template   
+    String name = "";
+    String model ="";
+    String color = "";
+    String type = "";
+    String price = "0";
+
+    public static void main(String[] args) {
+        Scanner in =new Scanner(System.in);
+        Car bmw = new Car();
+        Car Mustang = new Car();
+        Car Audi =new Car();
+//-----------------------------------------\\
+        //     BMW CAR        
+        bmw.name="BMW";
+        bmw.model="M4";
+        bmw.color="Black";
+        bmw.type="sports";
+        bmw.price="1,58,00,000";
+//-----------------------------------------\\
+        //     AUDIO CAR
+        Audi.name="AUDI";
+        Audi.color="Black";
+        Audi.model="R8";
+        Audi.type="sports";
+        Audi.price="2,36,00,000";
+//-----------------------------------------\\
+        //      MUSTANG CAR
+        Mustang.name="MUSTANG";
+        Mustang.model="GT";
+        Mustang.color="Red";
+        Mustang.type="Sports";
+        Mustang.price="74,00,000";
+//-----------------------------------------\\
+        // INPUT FOR CAR NAMES
+        System.out.println("Enter the Car Name ex:- BMW , AUDI , MUSTANG");
+        String a=in.nextLine();
+//-----------------------------------------\\
+        //    EQUAL WITH IF ELSE        
+        if(a.equals("BMW")) {
+            System.out.println("Car name is :- "+ bmw.name);
+            System.out.println("Car Model is :- "+bmw.model);
+            System.out.println("Car Color is :- "+bmw.color);
+            System.out.println("Car Type is :- "+bmw.type);
+            System.out.println("Car Price is :- "+bmw.price);
+//-----------------------------------------\\
+        }else if(a.equals("AUDI")) {
+            System.out.println("Car name is :- "+ Audi.name);
+            System.out.println("Car Model is :- "+Audi.model);
+            System.out.println("Car Color is :- "+Audi.color);
+            System.out.println("Car Type is :- "+Audi.type);
+            System.out.println("Car Price is :- "+Audi.price);
+//-----------------------------------------\\            
+        } else if (a.equals("MUSTANG")) {
+            System.out.println("Car name is :- "+ Mustang.name);
+            System.out.println("Car Model is :- "+Mustang.model);
+            System.out.println("Car Color is :- "+Mustang.color);
+            System.out.println("Car Type is :- "+Mustang.type);
+            System.out.println("Car Price is :- "+Mustang.price);
+        }
+    }
+}
