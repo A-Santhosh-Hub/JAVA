@@ -1,0 +1,27 @@
+class  Mobil{
+    void iphone(){
+        System.out.println("I phone");
+    }
+    void Samsung(){
+        System.out.println("SAMSUNG");
+    }
+    void IQOO(){
+        System.out.println("IQOO");
+    }
+    void Realme(){
+        System.out.println("REALME");
+    }
+    void RedMagic(){
+        System.out.println("ReaMagic");
+    }
+    public static void main(String[] args) {
+
+        Mobil ip=new Mobil();
+        ip.iphone();
+        ip.Samsung();
+        ip.IQOO();
+        ip.Realme();
+        ip.RedMagic();
+
+    }
+}
