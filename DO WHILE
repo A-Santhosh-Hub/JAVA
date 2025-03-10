@@ -1,0 +1,15 @@
+import java.util.*;
+class Do{
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter the New Number:-->");
+        int a=0;
+        int b=in.nextInt();
+        System.out.println("Now Retype The Number:");
+        do{
+            System.out.println("Bro Enter the Right Number");
+            a=in.nextInt();
+        }while (a<=b);
+        System.out.println("Successfully Unlock The Code");
+    }
+}
