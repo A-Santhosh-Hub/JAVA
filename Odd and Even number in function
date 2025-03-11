@@ -1,0 +1,17 @@
+import java.util.*;
+class Find{
+    void evenorodd(int num1){
+        if(num1%2==0){
+            System.out.println(num1+" is even number");
+        }else {
+            System.out.println(num1+" is Odd Number");
+        }
+    }
+    public static void main(String[] args) {
+        Scanner in =new Scanner(System.in);
+        System.out.println("Enter the Input to check odd or Even Number :");
+        int a =in.nextInt();
+        Find ing =new Find();
+        ing.evenorodd(a);
+    }
+}
