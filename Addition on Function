@@ -1,0 +1,20 @@
+import java.util.*;
+class Addition{
+    int a=10;
+    int b=20;
+    void sum(){
+        System.out.println(a+b);
+    }
+    void mains(){
+        System.out.println(a-b);
+    }
+    void total(){
+        System.out.println("The Apple price is:-  "+20*5);
+    }
+    public static void main(String[] args) {
+        Addition plus = new Addition();
+        plus.sum();
+        plus.mains();
+        plus.total();
+    }
+}
