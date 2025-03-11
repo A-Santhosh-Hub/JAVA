@@ -1,0 +1,22 @@
+import java.util.*;
+class School{
+    int passorfail(int a){
+        if(a>=35&&a<=100){
+            System.out.println(a+" -:  You are Pass");
+        }
+//        else if (a>101&&a<=10000) {
+//            System.out.println("Invaild input");
+//        }
+        else {
+            System.out.println(a+" -:  You faill");
+        }
+        return a;
+    }
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter Your Total Mark 1 to 100");
+        int num=in.nextInt();
+        School obj = new School();
+        obj.passorfail(num);
+    }
+}
