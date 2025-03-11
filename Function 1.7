@@ -1,0 +1,18 @@
+import java.util.*;
+class School{
+    String passorfail(int a){
+        if(a>=35){
+            return "Pass";
+        }else {
+            return "Fail";
+        }
+    }
+    public static void main(String[] args) {
+        Scanner in= new Scanner(System.in);
+        System.out.println("Enter your Mark 1 to 100");
+        int a= in.nextInt();
+        School obj = new School();
+        String input = obj.passorfail(a);
+        System.out.println( "Man Your are "+input+ " and Your Mark is "+a);
+    }
+}
