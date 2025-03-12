@@ -1,0 +1,23 @@
+import java.util.*;
+class School{
+    void room(int a){
+        System.out.println(a);
+        System.out.println("Room no 3");
+    }
+    void room(int a,int b){
+        System.out.println(a+b);
+        System.out.println("Room no 4");
+    }
+    void room(int a,int b,int c){
+        System.out.println(a+b+c);
+        System.out.println("Room no 5");
+    }
+
+    public static void main(String[] args) {
+        School obj =new School();
+        obj.room(2);
+        obj.room(1,5);
+        obj.room(11,22,33);
+        System.out.println();
+    }
+}
