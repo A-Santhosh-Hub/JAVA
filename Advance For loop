@@ -1,0 +1,15 @@
+import java.util.*;
+class Array{
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        int [] num={11,22,33,44,55,66};
+        //--------narmal for loop-----------\\
+        for(int i =0;i<=5;i++){
+            System.out.println(num[i]);
+        }
+        //-------Advanced------------------\\
+        for(int ind:num){
+            System.out.println(ind);
+        }
+    }
+}
