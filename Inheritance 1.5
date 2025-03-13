@@ -1,0 +1,36 @@
+class Animal {
+    String name;
+    int age;
+
+    void makeSound() {
+        System.out.println("Animal makes Sound");
+    }
+}
+
+    class Dog extends Animal{
+        void makeSound(){
+            System.out.println("Bark");
+        }
+    }
+    class Cat extends Animal{
+        @Override
+        void makeSound() {
+            System.out.println("MEOW");
+           // super.makeSound();
+        }
+        void clime(){
+            System.out.println("Cat is Clime");
+        }
+    }
+  class Zoo{
+    public static void main(String[] args) {
+        //Animal a = new Animal();
+        Cat a = new Cat();
+
+        a.name="Tiger";
+        a.age=4;
+        a.makeSound();
+        a.clime();
+
+    }
+}
