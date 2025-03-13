@@ -1,0 +1,38 @@
+class Vehicle {
+    String Brand;
+    int year;
+
+    void startengine() {
+
+    }
+
+    class car extends Vehicle {
+        void fueltype() {
+
+        }
+
+        @Override
+        void startengine() {
+            System.out.println("Car engine Start");
+        }
+
+        void drive() {
+            System.out.println("The Car is Driving");
+        }
+    }
+
+    class truck extends car {
+        @Override
+        void startengine() {
+            System.out.println("Truck engine Start");
+        }
+    }
+
+
+        public static void main(String[] args) {
+            Vehicle in = new Vehicle();
+            in.startengine();
+            
+        }
+
+    }
