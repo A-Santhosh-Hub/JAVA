@@ -1,0 +1,29 @@
+class Loptop{
+    void Display(){
+        System.out.println("4K Display");
+    }
+}
+class Laptop2 extends Loptop{
+    void Game(){
+        System.out.println("PC Games");
+    }
+}
+class Loptop3 extends Laptop2{
+    void Consol(){
+        System.out.println("PS5");
+    }
+}
+class Loptop4 extends Loptop3{
+    void Joystic(){
+        System.out.println("Xbox");
+    }
+}
+public class Main{
+    public static void main(String[] args) {
+        Loptop4 in = new Loptop4();
+        in.Display();
+        in.Game();
+        in.Consol();
+        in.Joystic();
+    }
+}
