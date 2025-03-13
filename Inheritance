@@ -1,0 +1,13 @@
+class Loptop{
+    String name;
+    int price;
+}
+public class Main{
+    public static void main(String[] args) {
+        Loptop in = new Loptop();
+        in.name="ASUS";
+        in.price=70000;
+        System.out.println(in.name);
+        System.out.println(in.price);
+    }
+}
