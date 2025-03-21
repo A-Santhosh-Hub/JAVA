@@ -1,0 +1,15 @@
+import java.util.*;
+class NumberReverse {
+    public static void main(String SANTHOSH[]) {
+        Scanner in = new Scanner(System.in);
+        int num;
+        int sum=0;
+        System.out.println("Enter The Number:-");
+        num=in.nextInt();
+        while (num!=0){
+            sum=sum*10+num%10;
+            num=num/10;
+        }
+        System.out.println("The Reversed Number Is : "+sum);
+    }
+}
