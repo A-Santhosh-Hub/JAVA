@@ -1,0 +1,15 @@
+import java.util.*;
+class SumOfDigit{
+    public static void main(String SANTHOSH[]) {
+        Scanner in = new Scanner(System.in);
+        int num;
+        int sum=0;
+        System.out.println("Enter The Number:-");
+        num=in.nextInt();
+        while (num!=0){
+            sum=sum+(num%10);
+            num=num/10;
+        }
+        System.out.println("The Given Number Sum Of Digit Is : "+sum);
+    }
+}
