@@ -9,6 +9,7 @@ Create 1.3 Array
 Addition on Function
 Create Addition on Function
 Advance For loop
+Star patteren 1 to 10 patteren in Java
 
 
 <<<---------------------- More Soon ------------------------>>
