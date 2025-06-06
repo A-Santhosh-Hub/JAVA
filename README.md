@@ -5,10 +5,11 @@
 3. 1.2 in Array
 4. Addition on Function
 5. Create Addition on Function
+6.  Array
 
 
 
-1.3 Array
+
 Create 1.3 Array
 
 
