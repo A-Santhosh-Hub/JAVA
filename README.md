@@ -7,13 +7,14 @@
 5. Create Addition on Function
 6.  Array
 7.  Advance For loop
+8.  Star patteren 1 to 10 patteren in Java
 
 
 
 
 
 
-Star patteren 1 to 10 patteren in Java
+
 
 
 <<<---------------------- More Soon ------------------------>>
