@@ -8,6 +8,7 @@
 6.  Array
 7.  Advance For loop
 8.  Star patteren 1 to 10 patteren in Java
+9.  Do WHILE 
 
 
 
